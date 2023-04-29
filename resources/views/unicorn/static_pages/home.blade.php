@@ -32,6 +32,14 @@
                                 <span style="vertical-align: inherit;">
                                     {{ __('dujiaoka.equipment.what_do_you_need_today') }}
                                 </span>
+                                @if(\Illuminate\Support\Facades\Request::path() == '/')
+                                    <form class="d-flex">
+                                        <input class="form-control form-control-sm me-sm-2" id="searchText" type="text" placeholder="{{ __('dujiaoka.search_goods_name') }}">
+                                        <button class="btn btn-secondary my-2 my-sm-0" type="button" id="searchBtn">
+                                            <i class="ali-icon">&#xe65c;</i>
+                                        </button>
+                                    </form>
+                                @endif
                         </h3>
                         <div class="separator"></div>
                         <p class="lead text-center">
