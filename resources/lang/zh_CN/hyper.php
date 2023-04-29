@@ -83,7 +83,7 @@ return [
     'orderinfo_order_title'        => '订单名称',
     'orderinfo_number_of_orders'   => '下单数量',
     'orderinfo_order_time'         => '下单时间',
-    'orderinfo_email'              => '邮箱',
+    'orderinfo_email'              => '邮箱,重要,可查询订单',
     'orderinfo_order_class'        => '订单类型',
     'orderinfo_automatic_delivery' => '自动发货',
     'orderinfo_charge'             => '人工发货',

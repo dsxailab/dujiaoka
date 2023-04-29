@@ -62,7 +62,7 @@ return [
     'by_amount' => '购买',
     'or_the_above' => '件或以上',
     'each' => '每个',
-    'email' => '邮箱',
+    'email' => '邮箱,重要,可查询订单',
     'payment_method' => '支付方式',
     'search_password' => '订单查询密码',
     'img_verify_code' => '图形验证码',
