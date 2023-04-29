@@ -14,7 +14,7 @@ return [
         'email' => '下單信箱',
         'goods_id' => '所屬商品',
         'goods_price' => '商品單價',
-        'info' => '訂單詳情',
+        'info' => '卡密',
         'order_sn' => '訂單號',
         'pay_id' => '支付通道',
         'status' => '訂單狀態',
