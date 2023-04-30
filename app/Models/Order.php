@@ -154,8 +154,8 @@ class Order extends BaseModel
      * @link      https://outti.me
      */
     public function setStatusAttribute($value){
-        // 如果订单状态不是待支付，或者状态不是已完成，直接返回
-        if($this->status != Order::STATUS_WAIT_PAY || intval($value) != Order::STATUS_COMPLETED){
+        // 如果订单旧状态已经完成，或者新状态不是已完成，直接返回
+        if($this->status == Order::STATUS_COMPLETED || intval($value) != Order::STATUS_COMPLETED){
             $this->attributes['status'] = $value;
             return;
         }
