@@ -70,7 +70,7 @@
                                             <span
                                                 class="small-tips tips-yellow">{{ __('goods.fields.manual_processing') }}</span>
                                         @endif
-                                        <span class="small-tips tips-blue">{{__('goods.fields.in_stock')}}({{ $in_stock }})</span>
+                                        <!--<span class="small-tips tips-blue">{{__('goods.fields.in_stock')}}({{ $in_stock }})</span>-->
                                         @if($buy_limit_num > 0)
                                             <span class="small-tips tips-red"> {{__('dujiaoka.purchase_limit')}}({{ $buy_limit_num }})</span>
                                         @endif
