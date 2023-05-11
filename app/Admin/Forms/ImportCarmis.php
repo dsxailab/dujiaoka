@@ -69,7 +69,7 @@ class ImportCarmis extends Form
         $this->file('carmis_txt')
             ->disk('public')
             ->uniqueName()
-            ->accept('txt')
+            ->accept('txt,csv')
             ->maxSize(5120)
             ->help(admin_trans('carmis.helps.carmis_list'));
         $this->switch('remove_duplication');
