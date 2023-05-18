@@ -54,6 +54,8 @@ class OrderController extends AdminController
             $grid->column('created_at');
             $grid->column('updated_at')->sortable();
             $grid->disableCreateButton();
+            $grid->quickSearch(['order_sn','email'])
+              ->placeholder(admin_trans('order.fields.order_sn') . "," . admin_trans('order.fields.email'));
             $grid->filter(function (Grid\Filter $filter) {
                 $filter->equal('order_sn');
                 $filter->like('title');
