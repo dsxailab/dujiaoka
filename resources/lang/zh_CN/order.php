@@ -15,6 +15,7 @@ return [
         'goods_id' => '所属商品',
         'goods_price' => '商品单价',
         'info' => '卡密,请用复制按钮复制',
+        'carmi_placeholder' => '卡密将显示在这里',
         'order_id' => '订单ID',
         'order_sn' => '订单号',
         'pay_id' => '支付通道',
