@@ -123,7 +123,7 @@
                                 @endif
                                 <div class="layui-col-md4">
                                     <h6 class="card-title">{{ __('order.fields.info') }}</h6>
-                                    <textarea disabled spellcheck="false"
+                                    <textarea spellcheck="false"
                                               placeholder="{{ __('order.fields.carmi_placeholder') }}"
                                               class="order-info">{{$info}}</textarea>
                                     <div class="btn" style="width: 100%">
