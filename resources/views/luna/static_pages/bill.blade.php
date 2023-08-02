@@ -39,7 +39,7 @@
                             <tbody>
                             <tr>
                                 <td style="text-align: right">{{ __('order.fields.order_sn') }}：</td>
-                                <td>{{ $order_sn }}</td>
+                                <td id='order-sn'>{{ $order_sn }}</td>
                             </tr>
                             <tr>
                                 <td style="text-align: right">{{ __('order.fields.title') }}：</td>
@@ -114,7 +114,7 @@
                             </tbody>
                         </table>
                         <p class="btn" style="text-align: center">
-                            <a href="{{ url('pay-gateway', ['handle' => urlencode($pay['pay_handleroute']),'payway' => $pay['pay_check'], 'orderSN' => $order_sn]) }}">
+                            <a id='pay-btn' href="{{ url('pay-gateway', ['handle' => urlencode($pay['pay_handleroute']),'payway' => $pay['pay_check'], 'orderSN' => $order_sn]) }}">
                                 {{ __('dujiaoka.pay_immediately') }}
                             </a>
                         </p>
