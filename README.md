@@ -32,6 +32,13 @@
 代码全部开源，所有扩展包采用composer加载，代码所有内容可溯源！     
 长期技术更新支持！
 
+## 👮‍♂️反诈提醒
+近期有高仿作者telegram实施诈骗的行为，        
+请各位用户擦亮双眼，作者从不私聊任何人提供任何收费形式的技术支持服务！    
+项目是完全开源免费的，完全遵守`MIT开源协议`    
+没有所谓的`技术支持`，`终身技术支持`，`二次开发`等业务，也不参与任何用户的`业务运营`。    
+凡是作者私聊你的全是高仿号诈骗，请仔细核对作者唯一Telegram用户名：`linux0101`     
+
 ## 写在前面
 本程序有一定的上手难度（对于小白而言），需要您对linux服务器有基本的认识和操作度   
 且本程序不支持虚拟主机，大概率也不支持windows服务器！  
@@ -44,11 +51,10 @@
 Telegram: [https://t.me/dujiaoka](https://t.me/dujiaoka)    
 关注Telegram官方频道：[https://t.me/dujiaoshuka](https://t.me/dujiaoshuka) (系统更新通知，bug更新，重大事件推送)
 
-## 角集-为你的梦想助力(站点推广/商品求购/资源比价等)
-Telegram官方频道：[https://t.me/dujiaoji](https://t.me/dujiaoji)   
-
 ## 🔥推荐服务器 
-- （美国免备案vps，配置2核2G仅需`20.98$`≈`145RMB`一年/支持支付宝付款）[👉🏻点我直达](https://my.racknerd.com/aff.php?aff=2745&pid=681)
+- （🇺🇸美国免备案vps，配置2核2G仅需`20.98$`≈`145RMB`一年/支持支付宝付款）[👉🏻点我直达](https://my.racknerd.com/aff.php?aff=2745&pid=681)
+- （🇺🇸美国至中国最快的云服务器，三网精品CN2，最低仅需`3.5$/月`支持Paypal/USDT/支付宝付款）[👉🏻点我直达](https://www.vmrack.net/?ref_code=5cxGLUcTZhH)
+- (🔥赛博支付【发卡收款好帮手】，支付宝/微信费率5%) [👉结算D0，点我直达](https://t.me/CyberWlD/219)
 
 ## 界面尝鲜
 【官方unicorn模板】
